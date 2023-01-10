@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 2em;
 }
 
 .App-logo {
@@ -35,4 +36,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.redbox {
+    border: 1px solid red;
+}
+
+.connect-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
